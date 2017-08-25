@@ -584,6 +584,7 @@ CREATE TABLE intern_internship (
        first_name VARCHAR NOT NULL,
        middle_name VARCHAR,
        last_name VARCHAR NOT NULL,
+       preferred_name VARCHAR,
        gpa VARCHAR NULL,
        level VARCHAR NOT NULL,
        phone VARCHAR,
@@ -599,6 +600,7 @@ CREATE TABLE intern_internship (
        first_name_meta character varying,
        middle_name_meta character varying,
        last_name_meta character varying,
+       preferred_name_meta character varying,
        birth_date integer NOT NULL,
 
        loc_address varchar NULL,
